@@ -1,0 +1,49 @@
+<div class="publications">
+  {% if page.publications %}
+    {% for pub in page.publications %}
+      <div class="publication-item">
+        <div class="row">
+          {% if pub.image %}
+            <div class="col-md-3">
+              {% assign pub_image_path = pub.image | prepend: 'assets/img/' %}
+              {%
+                include figure.liquid
+                loading="lazy"
+                path=pub_image_path
+                sizes="200px"
+                alt="Publication preview"
+                class="img-fluid rounded"
+              %}
+            </div>
+            <div class="col-md-9">
+          {% else %}
+            <div class="col-md-2">
+              <span class="badge badge-info">{{ pub.year }}</span>
+            </div>
+            <div class="col-md-10">
+          {% endif %}
+            <h4>
+              {% if pub.url %}
+                <a href="{{ pub.url }}">{{ pub.title }}</a>
+              {% else %}
+                {{ pub.title }}
+              {% endif %}
+            </h4>
+            <p class="authors">{{ pub.authors }}</p>
+            <p class="venue">{{ pub.venue }}, {{ pub.year }}</p>
+            {% if pub.abstract %}
+              <p class="abstract">{{ pub.abstract }}</p>
+            {% endif %}
+            {% if pub.links %}
+              <div class="publication-links">
+                {% for link in pub.links %}
+                  <a href="{{ link.url }}" class="btn btn-sm btn-outline-primary">{{ link.name }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

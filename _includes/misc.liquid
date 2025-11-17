@@ -1,0 +1,28 @@
+<div class="misc">
+  {% if page.misc %}
+    {% for section in page.misc %}
+      <div class="misc-section">
+        <h4>{{ section.title }}</h4>
+        {% if section.items %}
+          <ul>
+            {% for item in section.items %}
+              <li>
+                {% if item.url %}
+                  <a href="{{ item.url }}">{{ item.name }}</a>
+                {% else %}
+                  {{ item.name }}
+                {% endif %}
+                {% if item.description %}
+                  - {{ item.description }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if section.content %}
+          <p>{{ section.content }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
