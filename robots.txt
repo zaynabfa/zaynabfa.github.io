@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: zaynabfa.github.io/sitemap.xml
+Sitemap: https://zaynabazeem.github.io/sitemap.xml
