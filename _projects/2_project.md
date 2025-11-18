@@ -58,6 +58,7 @@ The project's key innovation lies in applying **latent space similarity mapping*
 ### Technical Details
 
 The pipeline integrates:
+
 - **Preprocessing**: EEG signal cleaning and feature extraction
 - **Similarity Analysis**: Representational similarity structure computation
 - **Latent Mapping**: Neural activity to StyleGAN2 latent space projection

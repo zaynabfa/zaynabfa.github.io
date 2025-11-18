@@ -26,12 +26,18 @@
 
  -->
 
-
-
 {% if site.footer_fixed %}
-<footer class="sticky-bottom mt-5" role="contentinfo" style="background-color: var(--global-bg-color); color: var(--global-text-color); padding: 2rem 0; border-top: 1px solid var(--global-divider-color); text-align: center;">
-  <div class="container">
-    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
-  </div>
+<footer
+  class="sticky-bottom mt-5"
+  role="contentinfo"
+  style="
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+    padding: 2rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    text-align: center;
+  "
+>
+  <div class="container">&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.</div>
 </footer>
 {%- endif %}

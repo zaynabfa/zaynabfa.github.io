@@ -11,16 +11,27 @@ html {
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
   color: var(--global-text-color);
 }
-h2{
+h2 {
   font-size: 1.6rem;
 }
-p{
+p {
   font-size: 0.92rem;
 }
-ul{
+ul {
   font-size: 0.92rem;
 }
 strong {
@@ -31,7 +42,8 @@ hr {
 }
 
 table {
-  td, th {
+  td,
+  th {
     color: var(--global-text-color);
   }
   td {
@@ -39,7 +51,8 @@ table {
   }
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
@@ -50,7 +63,8 @@ a, table.table a {
   }
 }
 
-figure, img {
+figure,
+img {
   max-width: 120vw;
 }
 
@@ -69,19 +83,19 @@ blockquote {
   br {
     line-height: 100%;
   }
-  h1{
+  h1 {
     font-size: 3rem;
   }
-  h2{
+  h2 {
     font-size: 1.6rem;
   }
-  h6{
+  h6 {
     font-size: 1rem;
   }
-  p{
+  p {
     font-size: 0.92rem;
   }
-  p1{
+  p1 {
     font-size: 0.87rem;
   }
 }
@@ -92,19 +106,19 @@ blockquote {
   br {
     line-height: 100%;
   }
-  h1{
+  h1 {
     font-size: 3rem;
   }
-  h2{
+  h2 {
     font-size: 1.6rem;
   }
-  h6{
+  h6 {
     font-size: 1rem;
   }
-  p{
+  p {
     font-size: 0.92rem;
   }
-  p1{
+  p1 {
     font-size: 0.87rem;
   }
 }
@@ -151,7 +165,8 @@ blockquote {
 
 // Citation
 
-.citation, .citation-number {
+.citation,
+.citation-number {
   color: var(--global-theme-color);
 }
 
@@ -170,10 +185,10 @@ blockquote {
     }
   }
 }
-.profile.float-right{
+.profile.float-right {
   margin-left: 1rem;
 }
-.profile.float-left{
+.profile.float-left {
   margin-right: 1rem;
 }
 
@@ -181,7 +196,9 @@ blockquote {
   .profile {
     width: 30%;
     .address {
-      p { display: block; }
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -219,7 +236,6 @@ blockquote {
   color: var(--global-text-color-light);
 }
 
-
 // Navbar customization
 
 .navbar {
@@ -243,10 +259,10 @@ blockquote {
 }
 .dropdown-item {
   color: var(--global-text-color);
-    &:hover {
-      color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
-    }
+  &:hover {
+    color: var(--global-hover-color);
+    background-color: var(--global-bg-color);
+  }
 }
 .navbar.navbar-light {
   a {
@@ -263,13 +279,13 @@ blockquote {
       color: var(--global-hover-color);
     }
   }
-  .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .navbar-brand.social {
     padding-bottom: 0;
@@ -357,7 +373,6 @@ blockquote {
   }
 }
 
-
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
@@ -387,11 +402,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -434,7 +449,8 @@ footer.sticky-bottom {
     justify-content: center;
     display: flow-root;
 
-    p, li {
+    p,
+    li {
       list-style: none;
       display: inline-block;
       padding: 1rem 0.5rem;
@@ -491,7 +507,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -530,7 +545,8 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer, .grid-item {
+  .grid-sizer,
+  .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -544,7 +560,6 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
-
 
 // Publications
 
@@ -610,8 +625,8 @@ footer.sticky-bottom {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
         > em {
@@ -623,8 +638,8 @@ footer.sticky-bottom {
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
           &:hover {
-              color: var(--global-text-color);
-              border-bottom: 1px dashed var(--global-text-color);
+            color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
@@ -691,7 +706,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-  pre, code {
+  pre,
+  code {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
@@ -705,7 +721,6 @@ code {
   padding: 3px 3px;
 }
 
-
 // Transitioning Themes
 html.transition,
 html.transition *,
@@ -716,13 +731,13 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
-.post{
-  .post-meta{
+.post {
+  .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
-  .post-tags{
+  .post-tags {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
@@ -735,7 +750,7 @@ html.transition *:after {
       }
     }
   }
-  .post-content{
+  .post-content {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
@@ -744,56 +759,56 @@ html.transition *:after {
 }
 
 progress {
-     /* Positioning */
-     position: fixed;
-     left: 0;
-     top: 56px;
-     z-index: 10;
-   
-     /* Dimensions */
-     width: 100%;
-     height: 1px;
-   
-     /* Reset the appearance */
-     -webkit-appearance: none;
-        -moz-appearance: none;
-             appearance: none;
-   
-     /* Get rid of the default border in Firefox/Opera. */
-     border: none;
-   
-     /* Progress bar container for Firefox/IE10  */
-     background-color: transparent;
-   
-     /* Progress bar value for IE10  */
-     color: var(--global-theme-color);
- }
- 
- progress::-webkit-progress-bar {
-     background-color: transparent;
- }
-   
- progress::-webkit-progress-value {
-     background-color: var(--global-theme-color);
- }
-   
- progress::-moz-progress-bar {
-     background-color: var(--global-theme-color);
- }
- 
- .progress-container {
-     width: 100%;
-     background-color: transparent;
-     position: fixed;
-     top: 56px;
-     left: 0;
-     height: 5px;
-     display: block;
- }
- 
- .progress-bar {
-     background-color: var(--global-theme-color);
-     width: 0%;
-     display: block;
-     height: inherit;
- }
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 56px;
+  z-index: 10;
+
+  /* Dimensions */
+  width: 100%;
+  height: 1px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10  */
+  background-color: transparent;
+
+  /* Progress bar value for IE10  */
+  color: var(--global-theme-color);
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--global-theme-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 5px;
+  display: block;
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+  width: 0%;
+  display: block;
+  height: inherit;
+}

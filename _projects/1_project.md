@@ -44,6 +44,7 @@ This ongoing research project explores how different race categories are organiz
 ### Impact and Applications
 
 This research has significant implications for understanding:
+
 - The neural basis of face recognition and categorization
 - Individual differences in face perception abilities
 - The stability of neural representations across different contexts

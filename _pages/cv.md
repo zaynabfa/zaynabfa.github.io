@@ -17,8 +17,9 @@ University of Toronto
 ## Research Experience
 
 ### Supervised Research Study Student
+
 **Neurocomputational Vision Lab, University of Toronto** | Supervisor: Adrian Nestor  
-*Ongoing*
+_Ongoing_
 
 **Project: The Shape of Face Space: A Manifold Approach to Neural Representation**
 
@@ -28,8 +29,9 @@ University of Toronto
 - Exploring implications for multi-race face perception and the stability of neural representations in high-dimensional spaces
 
 ### Supervised Research Study Student
+
 **University of Toronto** | Supervisor: Debra Bercovici  
-*Ongoing*
+_Ongoing_
 
 **Project: Laboratory Learning for All: Evaluating Accessibility in Undergraduate STEM Lab Environments**
 
@@ -39,8 +41,9 @@ University of Toronto
 - Analyzing responses to identify trends in inclusive teaching practices and propose evidence-based improvements for lab accessibility
 
 ### Undergraduate Thesis Student
+
 **Neurocomputational Vision Lab, University of Toronto** | Supervisor: Adrian Nestor  
-*2024–2025*
+_2024–2025_
 
 **Project: Novel Methodology for Neurally-Guided GAN-Based Images Synthesis**
 
@@ -52,8 +55,9 @@ University of Toronto
 - Presented findings for presentation at the Canadian Association for Neuroscience (CAN) 2025 Annual Meeting
 
 ### Research Student
+
 **Cant Lab, University of Toronto** | Supervisor: Jonathan Cant  
-*2022-Present*
+_2022-Present_
 
 - Conducting experiments on object and scene perception, supporting participant recruitment, experimental setup, and debriefing
 - Managed stimulus presentation and behavioral data collection, ensuring consistent experimental conditions
@@ -62,8 +66,9 @@ University of Toronto
 - Currently co-authoring a review on global visual perception, integrating evidence on flexible mechanisms of local vs. global processing
 
 ### Research Student
+
 **Keenan Research Centre, St. Michael's Hospital** | Supervisor: Yeni Yucel  
-*2024–2025*
+_2024–2025_
 
 **Project: Disrupted Brain Fluid Drainage in Microgravity: Insights from NASA's Mouse Model**
 
@@ -74,8 +79,9 @@ University of Toronto
 - Presented findings at multiple conferences, earning poster prizes at the LMP Summer Research Day, Keenan Research Day, UTSC Undergraduate Research Symposium (2nd place), and the Canadian Space Health Research Symposium (travel award recipient)
 
 ### Research Student
+
 **Motion and Adaptation Science Laboratory, University Health Network** | Supervisor: Kei Masani  
-*2025*
+_2025_
 
 **Project: Evaluating EEG-EMG Connectivity Measures During Static Motor Tasks**
 
@@ -84,8 +90,9 @@ University of Toronto
 - Investigating applications of EEG–EMG connectivity metrics for understanding motor control and informing rehabilitation approaches in movement disorders
 
 ### Co-op Research Student
+
 **Centre for Addictions and Mental Health** | Supervisor: Dr. Gary Remington  
-*2023*
+_2023_
 
 - Developed a detailed protocol for stem cell isolation and established experimental procedures for an ongoing study
 - Conducted participant visits and trained in administering clinical assessment scales (e.g., BPRS, CGI, BNA, SHS, CDS)
@@ -95,45 +102,53 @@ University of Toronto
 ## Presentations/Projects/Publications
 
 ### The Brain and Integrative Vision Conference (CRV 2025)
-*2025*
+
+_2025_
 
 Submitted an abstract covering my current project on shared neural mechanisms of multi-race face ensemble perception and the other-race effect using EEG and GANs
 
 ### Canadian Association for Neuroscience (CAN 2025)
-*2025*
+
+_2025_
 
 Submitted an abstract covering my thesis project exploring the neural mechanisms behind multi race ensemble face perception using Generative Adversarial Networks (GANs)
 
 ### Canadian Space Health Research Symposium (CSHR 2024)
-*2024*
+
+_2024_
 
 Selected to present findings on a hindlimb unloading mouse model adopted by NASA to study the effects of microgravity on lymphatic drainage through photoacoustic tomography. Was one out of 5 travel award recipients to be invited to present at CSHR
 
 ### Laboratory Medicine and Pathobiology Research Day (Winner – Best Poster)
-*2024*
+
+_2024_
 
 Presented findings on the effects of lymphatic drainage on cerebrospinal fluid in microgravity affected mice in space associated neuroocular syndrome. Project funded by Canadian Space Agency. Won Best Poster Award out of 80 posters presented in the fields of neuroscience, immunology, and medicine
 
 ### Undergraduate Research Symposium (Winner - Best Poster)
-*2024*
+
+_2024_
 
 Presented findings on the effects of lymphatic drainage on cerebrospinal fluid in microgravity affected mice in space associated neuroocular syndrome. Project funded by Canadian Space Agency
 
 ### Research Case Competition (Winner)
+
 **Psychology and Neuroscience Departmental Association | University of Toronto**
-*2022*
+_2022_
 
 Exhibited strong teamwork by working in a group of three to create a research plan on investigating the effects of COVID-19 on sleep patterns in elementary school children. Demonstrated strong analytical skills and knowledge of research methods by winning a grant for our COVID-19 research proposal. Performed extensive literature reviews by exploring various scientific databases and selecting relevant information
 
 ### Ignite Medical Case Competition (Publication in URNCST Journal)
+
 **Nationwide Competition | Canada**
-*2022*
+_2022_
 
 Successfully created a proposal on the potential use of molecular hydrogen therapy for ROS implicated diseases by using various scientific databases. Conducted literature reviews on techniques like RNA sequencing and animal modeling to propose a successful scientific method which adds onto existing work. Efficiently made use of time by writing the proposal and making use of Microsoft PowerPoint and Excel to present research in under a month. Published a full manuscript outlining an extensive protocol to conduct study
 
 ### Scinapse Case Competition (Publication in URNCST Journal)
+
 **Nationwide Competition | Canada**
-*2022*
+_2022_
 
 Displayed sound knowledge of research and ethics by creating a manuscript in under a week on the effects of modulating periaxonal width in axons on different forms of learning. Successfully conducted thorough research to formulate a strong methods section resulting in an honorable mention. Efficiently used Microsoft Excel and Word to present tables and visualize data findings
 
