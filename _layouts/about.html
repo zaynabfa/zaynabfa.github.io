@@ -40,12 +40,12 @@ layout: default
             {{ content }}
           </div>
 
+           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
-          {%- if page.social %}
 
+          {%- if page.social %}
           <!-- Research interests -->
           <div class="custom_projects" id="research_interests">
             {% if page.research_interests %}
@@ -74,13 +74,13 @@ layout: default
               {% if page.publications %}
                 {% include publications.html %}
               {% endif %}
-              </div>
+            </div>
 
           <div class="custom_projects" id="projects">
             {% if page.projects %}
               {% include projects.html %}
             {% endif %}
-            </div>
+          </div>
             
             <div class="misc" id="misc">
             {% if page.misc %}

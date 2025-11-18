@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Use pure Ruby sass gem to avoid native extension issues
 gem 'sass', '~> 3.7.4'
+# Use jekyll-sass-converter 2.x which uses the regular sass gem instead of sass-embedded
+gem 'jekyll-sass-converter', '~> 2.2'
 
 group :jekyll_plugins do
     gem 'jekyll'
