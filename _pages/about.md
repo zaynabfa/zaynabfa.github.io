@@ -2,41 +2,33 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
-subtitle: Neuroscience Specialist at University of Toronto
+subtitle: <a href='https://www.utoronto.ca/'>University of Toronto</a>. Neuroscience and Applied Statistics
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: zaynab_profile.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>University of Toronto</p>
-    <p>Scarborough Campus</p>
-    <p>Toronto, ON, Canada</p>
-  more_info: >
-    <p><strong>Email:</strong> zaynab.azeem@mail.utoronto.ca</p>
-    <p><strong>LinkedIn:</strong> linkedin.com/in/zaynab-azeem</p>
-    <p><strong>Google Scholar:</strong> scholar.google.com/citations?user=U59H0cEAAAAJ</p>
+  address: 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true  # includes a list of news items
+research_interests: true
+publications: true
+education: true
+projects: true
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
+misc: true
+# selected_papers: true # includes a list of papers marked as "selected={true}"
+# social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Zaynab Faisal Azeem ....
+I’m a Neuroscience student at the [University of Toronto](https://www.utoronto.ca/), specializing in Systems and Behavioural Neuroscience with a minor in Applied Statistics.
 
-## Research Interests
+I study perception and representation learning, exploring how the brain encodes and interprets visual information. My bachelor's thesis in the [Neurocomputational Vision Lab](https://www.utsc.utoronto.ca/people/anestor/) with Professor [Adrian Nestor](https://www.utsc.utoronto.ca/people/anestor/) uses neural-guided GAN synthesis to reconstruct human faces. By aligning EEG-derived neural activity with the latent space of generative models such as [StyleGAN2](https://github.com/NVlabs/stylegan2), we reveal how facial information is represented in the brain. 
 
-My research interests focus on understanding the human brain and its cognitive processes:
+I also work in the [Visual Recognition Lab](https://www.utsc.utoronto.ca/~jcant/index.html) with Professor [Jonathan Cant](https://www.utsc.utoronto.ca/~jcant/) where I study the neural and behavioral mechanisms of object and scene perception. I am co-authoring a review paper on how context shapes the brain’s integration of global and local visual information during perception.
 
-- **Neuroscience**: ...
+Previously, at the [Keenan Research Centre](https://hcr-moves.com/project/st-michaels-hospital/) with Dr. [Yeni Yücel](https://lmp.utoronto.ca/faculty/yeni-yucel), I led the first *in vivo* quantification of cerebrospinal fluid drainage in a [NASA](https://www.nasa.gov/) microgravity model, work recognized with poster awards and a travel grant to the [Canadian Space Health Research Symposium](https://www.canadianspacehealth.ca/symposium-2024).
+
+I'm passionate about bridging computational methods with neuroscience to advance our understanding of brain function.
+

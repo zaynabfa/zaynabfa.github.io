@@ -1,80 +1,86 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Object and Scene Perception Research
+description: Research on global visual perception and flexible processing mechanisms
+img: assets/img/6.jpg
+importance: 6
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Object and Scene Perception: Global Visual Processing Mechanisms
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This ongoing research project (2022-Present) in the Cant Lab at the University of Toronto focuses on understanding the flexible mechanisms of local vs. global visual processing. The work involves conducting experiments on object and scene perception while contributing to a comprehensive review on global visual perception.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Overview
+
+The research investigates how the human visual system processes complex visual scenes, examining the interplay between local and global processing mechanisms. This work contributes to our understanding of visual perception and has implications for both basic science and applied research.
+
+### Research Activities
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot.jpg" title="Experimental setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot2.png" title="Data analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prof_pic.jpg" title="Review manuscript" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Experimental setup for object and scene perception studies. Middle: MATLAB data analysis and visualization. Right: Collaborative review manuscript on global visual perception.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Key Responsibilities
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Experiment Management**: Supporting participant recruitment, experimental setup, and debriefing
+- **Data Collection**: Managing stimulus presentation and behavioral data collection
+- **MATLAB Programming**: Assisting with data preprocessing and analysis
+- **Lab Operations**: Contributing to experiment teardown and equipment maintenance
+- **Manuscript Writing**: Co-authoring a comprehensive review on global visual perception
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Research Focus
 
-{% raw %}
+The project examines:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Local vs. Global Processing**: How the visual system balances detailed and holistic information
+- **Scene Perception**: Understanding how we process complex visual environments
+- **Object Recognition**: Investigating mechanisms of object identification and categorization
+- **Flexible Processing**: Exploring how processing strategies adapt to different tasks and contexts
 
-{% endraw %}
+### Technical Contributions
+
+- **MATLAB Development**: Creating analysis pipelines for behavioral data
+- **Trial Structure Design**: Developing experimental protocols for consistent data collection
+- **Output Formatting**: Standardizing data formats for analysis and sharing
+- **Quality Control**: Ensuring reliable and reproducible experimental conditions
+
+### Collaborative Research
+
+The project involves:
+
+- **Literature Review**: Comprehensive analysis of existing research on global visual perception
+- **Evidence Integration**: Synthesizing findings from multiple studies and methodologies
+- **Manuscript Preparation**: Contributing to a high-quality review publication
+- **Knowledge Translation**: Making complex research accessible to broader audiences
+
+### Research Impact
+
+This work contributes to:
+
+- **Theoretical Understanding**: Advancing knowledge of visual processing mechanisms
+- **Methodological Development**: Improving experimental approaches to perception research
+- **Clinical Applications**: Informing research on visual disorders and rehabilitation
+- **Educational Resources**: Creating comprehensive reviews for the research community
+
+### Current Status
+
+The project is ongoing with:
+
+- Active data collection and analysis
+- Manuscript preparation in progress
+- Continued collaboration with lab members
+- Regular contributions to lab operations and maintenance
+
+This research represents a valuable contribution to the field of visual perception and demonstrates the importance of both experimental work and scholarly synthesis in advancing scientific knowledge.

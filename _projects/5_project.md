@@ -1,80 +1,87 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Laboratory Accessibility Research
+description: Evaluating accessibility in undergraduate STEM lab environments
+img: assets/img/5.jpg
+importance: 5
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Laboratory Learning for All: Evaluating Accessibility in Undergraduate STEM Lab Environments
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This ongoing research project (Supervisor: Debra Bercovici) focuses on designing and leading a comprehensive mixed-methods study to evaluate laboratory learning experiences among students with and without formal academic accommodations. The project aims to identify barriers and develop evidence-based improvements for lab accessibility.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Overview
+
+The research addresses a critical gap in STEM education by examining how laboratory learning environments can be made more inclusive and accessible for all students, regardless of their accommodation needs.
+
+### Research Design
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot.jpg" title="Survey development" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot2.png" title="Data collection" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prof_pic.jpg" title="Analysis and recommendations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Survey instrument development for capturing accessibility needs. Middle: Data collection across STEM departments. Right: Analysis of trends in inclusive teaching practices.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Key Research Activities
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Survey Development**: Creating comprehensive instruments to capture barriers, supports, and accessibility needs
+- **Cross-Departmental Study**: Distributing surveys across multiple STEM departments at the University of Toronto
+- **Ethics Protocol**: Preparing detailed Research Ethics Board (REB) protocol with participant protections
+- **Data Analysis**: Identifying trends in inclusive teaching practices and accessibility gaps
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Research Objectives
 
-{% raw %}
+The study aims to:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+1. **Identify Barriers**: Document specific challenges faced by students with accommodations in lab settings
+2. **Assess Supports**: Evaluate existing support systems and their effectiveness
+3. **Compare Experiences**: Analyze differences between students with and without formal accommodations
+4. **Develop Recommendations**: Propose evidence-based improvements for lab accessibility
 
-{% endraw %}
+### Methodology
+
+The mixed-methods approach includes:
+
+- **Quantitative Surveys**: Large-scale data collection across STEM departments
+- **Qualitative Interviews**: In-depth discussions with students and instructors
+- **Environmental Assessment**: Evaluation of physical lab spaces and equipment
+- **Policy Review**: Analysis of current accommodation policies and procedures
+
+### Expected Outcomes
+
+The research will contribute to:
+
+- **Evidence-Based Practices**: Developing guidelines for inclusive lab design
+- **Policy Recommendations**: Informing institutional policies on accessibility
+- **Training Materials**: Creating resources for instructors and lab staff
+- **Best Practices**: Establishing standards for accessible STEM education
+
+### Impact and Applications
+
+This work has broad implications for:
+
+- **Educational Equity**: Ensuring equal access to laboratory learning experiences
+- **Institutional Policy**: Informing university-wide accessibility initiatives
+- **Faculty Development**: Training instructors in inclusive teaching practices
+- **Student Success**: Improving learning outcomes for all students
+
+### Current Status
+
+The project is in the active data collection phase with:
+
+- Survey instruments finalized and distributed
+- REB approval obtained
+- Cross-departmental collaboration established
+- Preliminary data analysis underway
+
+This research represents an important contribution to the field of inclusive education and has the potential to significantly improve laboratory learning experiences for students with diverse needs.

@@ -1,81 +1,79 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Microgravity Brain Fluid Research
+description: NASA mouse model study on disrupted brain fluid drainage in microgravity
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
-category: work
+category: clinical
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Disrupted Brain Fluid Drainage in Microgravity: Insights from NASA's Mouse Model
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This research project (2024-2025) at the Keenan Research Centre, St. Michael's Hospital, investigated the effects of microgravity on cerebrospinal fluid (CSF) lymphatic drainage using NASA's hindlimb unloading (HU) mouse model. The study was funded by the University of Toronto Research Opportunity Award ($2,500) and has received multiple conference awards.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Overview
+
+The project addressed a critical gap in space health research by conducting the first in vivo quantification of CSF lymphatic drainage in a microgravity simulation model. This work has significant implications for understanding space-associated neuroocular syndrome (SANS) and developing countermeasures for long-duration space missions.
+
+### Research Significance
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot.jpg" title="Mouse model setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Julia_headshot2.png" title="Fluorescent tracer injection" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prof_pic.jpg" title="Drainage pathway analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: NASA hindlimb unloading mouse model setup. Middle: Fluorescent tracer injection for tracking drainage pathways. Right: Analysis of lymphatic clearance rates using advanced imaging.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Key Achievements
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **First In Vivo Quantification**: Led the first in vivo quantification of CSF lymphatic drainage in a NASA hindlimb unloading mouse model
+- **Experimental Design**: Designed and executed comprehensive protocols involving fluorescent tracer injections and tissue analysis
+- **Advanced Imaging**: Utilized photoacoustic tomography and quantitative methods to track drainage pathways and efficiency
+- **Funding Success**: Secured University of Toronto Research Opportunity Award ($2,500)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Methodology
 
-{% raw %}
+The research employed a multi-faceted approach:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Hindlimb Unloading Model**: Used NASA's established mouse model to simulate microgravity conditions
+- **Fluorescent Tracer Studies**: Injected fluorescent tracers to visualize and quantify drainage pathways
+- **Photoacoustic Tomography**: Applied advanced imaging techniques to track lymphatic clearance rates
+- **Quantitative Analysis**: Developed methods to measure drainage efficiency and clearance rates
 
-{% endraw %}
+### Conference Presentations and Awards
+
+The project has been presented at multiple prestigious conferences with outstanding recognition:
+
+- **Canadian Space Health Research Symposium (CSHR 2024)**: Selected as one of 5 travel award recipients
+- **Laboratory Medicine and Pathobiology Research Day**: **Winner - Best Poster Award** (out of 80 posters)
+- **Undergraduate Research Symposium**: **Winner - 2nd Place Best Poster**
+- **Keenan Research Day**: Poster presentation
+- **LMP Summer Research Day**: Poster presentation
+
+### Research Impact
+
+This work contributes to our understanding of:
+
+- **Space-Associated Neuroocular Syndrome (SANS)**: Mechanisms underlying vision changes in astronauts
+- **Cerebrospinal Fluid Dynamics**: How microgravity affects brain fluid circulation
+- **Countermeasure Development**: Potential interventions for long-duration space missions
+- **Terrestrial Applications**: Insights into brain fluid dynamics in various conditions
+
+### Future Directions
+
+The findings from this research have opened new avenues for:
+
+- Developing countermeasures for space missions
+- Understanding brain fluid dynamics in various pathological conditions
+- Advancing our knowledge of the glymphatic system
+- Contributing to space health research initiatives
+
+This project demonstrates the intersection of neuroscience, space medicine, and advanced imaging techniques, highlighting the importance of interdisciplinary research in addressing complex health challenges.
