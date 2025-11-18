@@ -4,8 +4,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-        {% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else
-        %}{{ site.title }}{% endif %}
+        {% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
       </a>
       {% elsif site.enable_navbar_social %}
       <!-- Social Icons -->
@@ -38,7 +37,12 @@
           </li>
           <!-- CV -->
           <li class="nav-item">
-            <a class="nav-link" href="https://drive.google.com/file/d/1DqZlhqIYW_4Xx6MPYye1k_2XCtJz8yH9/view" target="_blank" rel="noopener noreferrer">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/1DqZlhqIYW_4Xx6MPYye1k_2XCtJz8yH9/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               cv
             </a>
           </li>
